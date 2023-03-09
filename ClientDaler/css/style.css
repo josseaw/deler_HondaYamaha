@@ -1,0 +1,52 @@
+.container {
+    transition: .5s ease-in-out;
+}
+
+.navbar .navbar-brand {
+    font-size: 30px;
+}
+
+.navbar .navbar-nav a {
+    font-size: 20px;
+}
+
+@media(max-width: 976px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.view {
+    margin-top: 70px;
+    background: url(../img/cta-illustration.svg);
+    height: 100%;
+}
+
+.view h1 {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    color: #2d50dd;
+}
+
+.card-text {
+    margin: 0;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #808080;
+}
+
+.right {
+    float: right;
+}
